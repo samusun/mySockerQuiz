@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: cadetblue;
+  height: 100vh;
+  width: 70vw;
+}
+
+#log {
+  border: solid black 2px;
+  height: 60vh;
+  width: 60vw;
+}
+#category button {
+  display: block;
+  background-color: antiquewhite;
+  height: 10vh;
+  width: 10vw;
+}
+
+#answers div {
+  border: solid black 2px;
+  background-color: white;
+  width: 20em;
+}
+#answers div:hover {
+  opacity: 80%;
+  cursor: pointer;
+}

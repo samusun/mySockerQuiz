@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <title>Document</title> 
+</head>
+<body>
+    <div class="game" >
+    <h1>Socket Trivia</h1>
+        <h2>Välj kategori</h2>
+        <form id="myQuestions">
+        <select id="questionSelector">
+        </select>
+        <input type="submit" value="Välj">
+    </form>
+    <p id="catChoice"></p>
+    <h3 id="question"></h3>
+    <div id="answers"></div>
+    <h2 id="feedback" ></h2>
+    <button id="newRound">Next Question</button>
+    <h3 id="othersFeedback"></h3>
+    <h3>Connected players</h3>
+    <div id="scoreboard">
+    </div>
+    <h4 id="userId"></h4>
+    <div id="log">
+        <h3> Your Log</h3>
+    </div>
+    </div>
+    <script src="myfunctions.js"></script>
+</body>
+</html>
